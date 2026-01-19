@@ -8,6 +8,10 @@ namespace BuggyApp.Controllers
     [Route("api/[controller]")]
     public class InvoiceController : ControllerBase
     {
+        /// <summary>
+        /// Get items
+        /// </summary>
+        /// <returns>Invoice items</returns>
         [HttpGet]
         public IActionResult GetInvoice()
         {

@@ -6,6 +6,9 @@ namespace BuggyApp.Controllers
     [Route("api/[controller]")]
     public class DataController : ControllerBase
     {
+        /// <summary>
+        /// Get Data
+        /// </summary>
         [HttpGet]
         public IActionResult GetData()
         {
